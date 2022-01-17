@@ -1,0 +1,551 @@
+.body {
+  background-image: linear-gradient(to right, #181e21, #020405);
+}
+
+.nav-text {
+  font-family: "Roboto", sans-serif;
+  color: #b6b6b6;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.16em;
+  margin-left: 30px;
+}
+.navbar {
+  padding-top: 2%;
+  padding-bottom: 2%;
+}
+
+.heading1 {
+  font-family: "Bebas Neue", cursive;
+  color: #f0dabd;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 50px;
+  line-height: 72px;
+}
+
+.deskripsi {
+  font-family: "Poppins", sans-serif;
+  color: #706c63;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+}
+
+.text-display {
+  text-align: right;
+  color: #262c33;
+  font-size: 120px;
+  line-height: 240px;
+  opacity: 24%;
+  font-family: "Bebas Neue", sans-serif;
+  letter-spacing: 10px;
+}
+
+.subtitle {
+  font-family: "Poppins", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: 0.25em;
+  color: #706c63;
+}
+
+.gambar {
+  align-content: center;
+  align-items: center;
+}
+
+.gambar-header {
+  max-width: 80%;
+  align-content: center;
+  align-items: center;
+}
+
+.container {
+  max-height: fit-content;
+}
+
+.garis {
+  width: 70%;
+  height: px;
+  background-image: radial-gradient(circle, #d0beaf, #272e32);
+}
+
+.intro {
+  position: -ms-page;
+}
+
+.button {
+  margin-right: 16px;
+}
+
+.icon {
+  margin-right: 20px;
+  margin-top: 32px;
+}
+
+.social {
+  margin-top: -16px;
+}
+
+.text-edux {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 150%;
+}
+
+.text-edux span {
+  font-weight: normal;
+}
+
+.projects {
+  background-image: linear-gradient(#050505, #4b453f);
+}
+
+.heading2 {
+  font-family: "Lora", "serif";
+  color: white;
+  font-weight: medium;
+  font-size: 30px;
+  letter-spacing: 5%;
+}
+
+.gambar-explorasi {
+  margin-top: 56px;
+  margin-bottom: 24px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.icon-keterangan {
+  margin-right: 100px;
+}
+.pbtext {
+  font-family: "Lato", "sans-serif";
+  font-size: 14px;
+  letter-spacing: 5%;
+  color: #d8c3ae;
+  text-decoration: none;
+}
+
+.text-bg {
+  margin-bottom: 0;
+}
+
+.about {
+  padding-bottom: 10%;
+}
+
+.profile {
+  margin-bottom: 5%;
+  border-radius: 16px;
+  box-shadow: 50px 50px #101416 100%;
+}
+
+.footer {
+  background-color: #010508;
+  padding-top: 5%;
+}
+
+.footer-first {
+  margin-bottom: 20%;
+}
+
+/* Project */
+
+/* Navbar 2 */
+ul.navb {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+ul li.nav2 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  color: #272e32;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 150%;
+  /* identical to box height, or 24px */
+
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  list-style: none;
+}
+
+ul li.nav2.aktif {
+  color: #706c63;
+}
+
+.cardproject {
+  position: relative;
+  background-color: #171d20;
+  border-radius: 12px;
+  max-width: 100%;
+  padding-left: 50px;
+  padding-right: 50px;
+  padding-top: 28px;
+  padding-bottom: 28px;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.cardproject.hide {
+  display: none;
+}
+.card-text {
+  color: #706c63;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 150%;
+  letter-spacing: 0.1em;
+  text-align: center;
+  margin-top: 2%;
+  margin-bottom: 2%;
+}
+
+.imgcard {
+  max-width: 75%;
+  max-height: 75%;
+}
+
+.row-project {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+/* DEKSTOP VERSION */
+@media (min-width: 992px) {
+  .body {
+    background-image: linear-gradient(to right, #181e21, #020405);
+  }
+
+  .heading1 {
+    font-family: "Bebas Neue", cursive;
+    color: #f0dabd;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 100px;
+    line-height: 144px;
+  }
+
+  .bodytext1 {
+    font-family: "Poppins", sans-serif;
+    color: #706c63;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 150%;
+  }
+
+  .text-display {
+    font-size: 200px;
+  }
+
+  .gambar {
+    align-content: center;
+    align-items: center;
+  }
+
+  .gambar-header {
+    max-width: 100%;
+  }
+
+  .garis {
+    width: 100%;
+    height: 1px;
+    background-image: radial-gradient(circle, #d0beaf, #272e32);
+  }
+
+  .project-card {
+    align-items: center;
+    align-content: center;
+  }
+
+  .icon {
+    margin-right: 32px;
+    margin-top: 32px;
+  }
+
+  .footer-first {
+    margin-bottom: 0%;
+  }
+
+  .cardproject {
+    position: relative;
+    background-color: #171d20;
+    border-radius: 12px;
+    max-width: 30%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin-top: auto;
+  }
+
+  .cardproject.hide {
+    display: none;
+  }
+  .row-project {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+}
+
+/* SIZE KECIL */
+
+@media (max-width: 575.98px) {
+  .nav-text {
+    font-family: "Roboto", sans-serif;
+    color: #b6b6b6;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.16em;
+    margin-left: 30px;
+  }
+  .navbar {
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+
+  .heading1 {
+    font-family: "Bebas Neue", cursive;
+    color: #f0dabd;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 72px;
+  }
+
+  .deskripsi {
+    font-family: "Poppins", sans-serif;
+    color: #706c63;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 150%;
+  }
+
+  .text-display {
+    text-align: right;
+    color: #262c33;
+    font-size: 60px;
+    line-height: 240px;
+    opacity: 24%;
+    font-family: "Bebas Neue", sans-serif;
+    letter-spacing: 10px;
+  }
+
+  .subtitle {
+    font-family: "Poppins", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0.25em;
+    color: #706c63;
+  }
+
+  .gambar {
+    align-content: center;
+    align-items: center;
+  }
+
+  .gambar-header {
+    max-width: 80%;
+    align-content: center;
+    align-items: center;
+  }
+
+  .container {
+    max-height: fit-content;
+  }
+
+  .garis {
+    width: 70%;
+    height: px;
+    background-image: radial-gradient(circle, #d0beaf, #272e32);
+  }
+
+  .intro {
+    position: -ms-page;
+  }
+
+  .button {
+    margin-right: 16px;
+  }
+
+  .icon {
+    margin-right: 20px;
+    margin-top: 32px;
+  }
+
+  .social {
+    margin-top: -16px;
+  }
+
+  .text-edux {
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 150%;
+  }
+
+  .text-edux span {
+    font-weight: normal;
+  }
+
+  .projects {
+    background-image: linear-gradient(#050505, #4b453f);
+  }
+
+  .heading2 {
+    font-family: "Lora", "serif";
+    color: white;
+    font-weight: medium;
+    font-size: 30px;
+    letter-spacing: 5%;
+  }
+
+  .gambar-explorasi {
+    margin-top: 56px;
+    margin-bottom: 24px;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .icon-keterangan {
+    margin-right: 100px;
+  }
+  .pbtext {
+    font-family: "Lato", "sans-serif";
+    font-size: 14px;
+    letter-spacing: 5%;
+    color: #d8c3ae;
+    text-decoration: none;
+  }
+
+  .text-bg {
+    margin-bottom: 0;
+  }
+
+  .about {
+    padding-bottom: 10%;
+  }
+
+  .profile {
+    margin-bottom: 5%;
+    border-radius: 16px;
+    box-shadow: 50px 50px #101416 100%;
+  }
+
+  .footer {
+    background-color: #010508;
+    padding-top: 5%;
+  }
+
+  .footer-first {
+    margin-bottom: 20%;
+  }
+
+  /* Project */
+
+  /* Navbar 2 */
+  ul.navb {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  ul li.nav2 {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    color: #272e32;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 150%;
+    /* identical to box height, or 24px */
+
+    letter-spacing: 0.1em;
+    cursor: pointer;
+    list-style: none;
+  }
+
+  ul li.nav2.aktif {
+    color: #706c63;
+  }
+
+  .cardproject {
+    position: relative;
+    background-color: #171d20;
+    border-radius: 12px;
+    max-width: 100%;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+
+  .cardproject.hide {
+    display: none;
+  }
+  .card-text {
+    color: #706c63;
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.1em;
+    text-align: center;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+
+  .imgcard {
+    max-width: 75%;
+    max-height: 75%;
+  }
+
+  .row-project {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+}
