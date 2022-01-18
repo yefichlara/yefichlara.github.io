@@ -490,6 +490,7 @@ ul li.nav2.aktif {
     display: flex;
     justify-content: center;
     color: #272e32;
+    margin-left: 12px;
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
