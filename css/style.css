@@ -12,6 +12,13 @@
   letter-spacing: 0.16em;
   margin-left: 30px;
 }
+
+.logo {
+  font-family: "Kolker Brush", cursive;
+  color: whitesmoke;
+  font-size: 48px;
+}
+
 .navbar {
   padding-top: 2%;
   padding-bottom: 2%;
